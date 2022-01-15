@@ -62,20 +62,21 @@ SSH_AUTH_KEY=""
 #    because it's stored database in
 #    volume and provisioning is only
 #    done once.
+# -> Password is prefered to be not simple.
 MYSQL_ROOT_PASSWORD=dev
 MYSQL_USER=dev
-MYSQL_PASSWORD=dev
-MYSQL_DATABASE=typo3
+MYSQL_PASSWORD=127MySQLTypo3*
+MYSQL_DATABASE=127MySQLTypo3*
 
 #######################################
 # PostgreSQL settings
 POSTGRES_USER=dev
-POSTGRES_PASSWORD=dev
-POSTGRES_DATABASE=dev
+POSTGRES_PASSWORD=127MySQLTypo3*
+POSTGRES_DATABASE=127MySQLTypo3*
 
 #######################################
 # FTP settings
 FTP_USER=dev
-FTP_PASSWORD=dev
+FTP_PASSWORD=devTypo3*
 FTP_PATH=/storage/ftp/
 #FTP_PATH=/app/
