@@ -17,7 +17,7 @@ Then follow the next steps:
 
 ```bash
 rm -rf ./*
-composer create-project typo3/cms-base-distribution /app
+composer create-project typo3/cms-base-distribution /
 touch public/FIRST_INSTALL .gitkeep
 ```
 
